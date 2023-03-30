@@ -19,5 +19,7 @@ There are three files to this music player
 I will continue making changes to the files to make it run or work better. Some of the future enhancements I will implement include:
 
 1. When a song ends, it will automatically grab the next song from the list to play.
-2. Adding album images when the songs play.
-3. and more ....
+2. Add album images when the songs play.
+3. Skip to Next and Previous songs
+4. Add Mute button (same as setting volume to 0)
+5. and more ....
