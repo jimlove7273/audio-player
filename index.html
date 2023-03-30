@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MP3 Play List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Music Player</h1>
+    <div class="hidden-songtitle"></div>
+    <audio
+      src="https://www.kozco.com/tech/piano2-Audacity1.2.5.mp3"
+      id="audio"
+      preload="metadata"
+    ></audio>
+
+    <div class="music-container">
+      <div class="playBtn">
+        <button id="play"><i class="fas fa-play"></i></button>
+      </div>
+      <div class="timeProgress">
+        <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+      </div>
+      <div class="progress-container"><div class="progress"></div></div>
+      <i class="fas fa-volume-up"></i>
+      <input
+        name="audio-volume"
+        type="range"
+        min="0"
+        max="1"
+        step=".1"
+        value=".5"
+        class="slider"
+        id="volume"
+      />
+    </div>
+
+    <div id="song-list"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
