@@ -7,8 +7,11 @@ This is a relatively simple MP3 audio player using HTML's &lt;audio&gt; tag. Whe
 ## Files
 
 There are three files to this music player
+
 **index.html** - this is the main HTML file that renders the player and play list. You can pretty much leave it the way it is, but if you changed a class or ID name, you need to update its CSS file.
+
 **style.css** - The CSS file that styles the player. I have put all the colors you need for the player on top of the file where it defines the variables. Modifying these values will change the look and feel of the audio player so be careful changing them.
+
 **script.js** - The JavaScript that makes it possible. This contains all the special functions and event listeners that trigger the song playing or stopping (pausing), lets you change the song to play, and change the player volume.
 
 ### Enhancements
